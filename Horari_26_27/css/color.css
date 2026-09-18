@@ -1,0 +1,40 @@
+#celaPati{
+    background-color: crimson;
+    color: whitesmoke;
+    text-align: center;
+}
+
+.celaWeb{
+    background-color: lightskyblue;
+    color: whitesmoke;
+}
+
+.celaProgra{
+    background-color: lightcoral;
+    color: whitesmoke;
+}
+
+.celaSistemes{
+    background-color: darkgreen;
+    color: whitesmoke;
+}
+
+.celaBBDD{
+    background-color: lightpink;
+    color: whitesmoke;
+}
+
+.celaFol{
+    background-color: darkgoldenrod;
+    color: whitesmoke;
+}
+
+.celaERP{
+    background-color: burlywood;
+    color: whitesmoke;
+}
+
+.celaEie{
+    background-color: violet;
+    color: whitesmoke;
+}
