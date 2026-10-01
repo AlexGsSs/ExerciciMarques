@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Exercici 12 Sintesi HTML</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+
+<body class="layout">
+
+    <header>
+        <h1>La meva pàgina personal</h1>
+        <p>Videojocs, música i coses que m'agraden.</p>
+    </header>
+
+    <nav>
+        <a href="#contacte">Contacte</a>
+        <a href="#horari">Horari</a>
+        <a href="#video">Vídeo</a>
+        <a href="#preferencies">Preferències</a>
+    </nav>
+
+    <main>
+
+        <article id="contacte">
+            <h2>Contacta amb mi</h2>
+
+            <form>
+
+                <label for="nom">Nom:</label>
+                <input type="text" id="nom" name="nom" placeholder="Escriu el teu nom" required>
+
+                <br><br>
+
+                <label for="correu">Correu electrònic:</label>
+                <input type="email" id="correu" name="correu" placeholder="Escriu el teu correu" required>
+
+                <br><br>
+
+                <label for="missatge">Missatge:</label>
+                <br>
+
+                <textarea id="missatge" name="missatge" placeholder="Escriu el teu missatge" rows="5" cols="40"
+                    required></textarea>
+
+                <br><br>
+
+                <input type="submit" value="Enviar">
+
+            </form>
+        </article>
+
+        <article id="horari">
+            <h2>El meu horari</h2>
+
+            <table>
+                <tr>
+                    <th>Dia</th>
+                    <th>Activitat</th>
+                    <th>Hora</th>
+                </tr>
+
+                <tr>
+                    <td>Dilluns</td>
+                    <td>Estudiar</td>
+                    <td>17:00</td>
+                </tr>
+
+                <tr>
+                    <td>Dimarts</td>
+                    <td>Jugar a videojocs</td>
+                    <td>18:00</td>
+                </tr>
+
+                <tr>
+                    <td>Dimecres</td>
+                    <td>Escoltar música</td>
+                    <td>19:00</td>
+                </tr>
+
+                <tr>
+                    <td>Dijous</td>
+                    <td>Programar</td>
+                    <td>17:30</td>
+                </tr>
+
+                <tr>
+                    <td>Divendres</td>
+                    <td>Temps lliure</td>
+                    <td>18:00</td>
+                </tr>
+            </table>
+            <h5>Desgraciadamente programo mas que lo que pone aquí y es algo que hago todos los dias, btw la informacion es generica menos los videos y imagenes</h5>
+        </article>
+
+        <article id="video">
+            <h2>El meu vídeo</h2>
+
+            <p>
+                Quan estic trist escolto això:
+            </p>
+
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/iDLmYZ5HqgM"
+                title="Metal Pipe Falling Sound Effect" frameborder="0"
+                allow="autoplay; encrypted-media; picture-in-picture" allowfullscreen>
+            </iframe>
+        </article>
+
+        <article id="preferencies">
+            <h2>Les meves preferències</h2>
+
+            <ul>
+                <li>Videojocs</li>
+                <li>Música metal</li>
+                <li>Informàtica</li>
+                <li>Pel·lícules</li>
+                <li>Pizza</li>
+            </ul>
+        </article>
+
+    </main>
+
+    <aside>
+        <h2>Sobre la pàgina</h2>
+        <p>
+            Aquesta pàgina és una síntesi dels elements HTML5
+            que he après durant els exercicis.
+        </p>
+    </aside>
+
+    <aside>
+        <h2>Els meus interessos</h2>
+        <p>
+            M'agraden els videojocs, el metal no (la musica metal aún que no me gusta un genero en concreto pero si canciones sueltas) i la informàtica.
+        </p>
+    </aside>
+
+    <footer>
+        <p>© 2026 La meva pàgina personal</p>
+    </footer>
+
+</body>

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Exercici 11 Validant Sense JS</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+
+<body class="layout">
+
+    <header>
+        <h1>Validant sense JS</h1>
+    </header>
+
+    <nav>
+        <a href="#formulari">Formulari</a>
+        <a href="#informacio">Informació</a>
+    </nav>
+
+    <main>
+
+        <article id="formulari">
+            <h2>Formulari de validació</h2>
+
+            <form>
+
+                <label for="nom">Nom:</label>
+                <input type="text" id="nom" name="nom" placeholder="Escriu el teu nom" required>
+
+                <br><br>
+
+                <label for="correu">Correu electrònic:</label>
+                <input type="email" id="correu" name="correu" placeholder="exemple@gmail.com" required>
+
+                <br><br>
+
+                <label for="contrasenya">Contrasenya:</label>
+                <input type="password" id="contrasenya" name="contrasenya" placeholder="Mínim 8 caràcters" minlength="8"
+                    required>
+
+                <br><br>
+
+                <label for="telefon">Número de telèfon:</label>
+                <input type="tel" id="telefon" name="telefon" placeholder="123456789" pattern="[0-9]{9}" maxlength="9"
+                    required>
+
+                <br><br>
+
+                <input type="submit" value="Validar">
+
+            </form>
+        </article>
+
+    </main>
+
+    <aside id="informacio">
+        <h2>Validació HTML5</h2>
+        <p>
+            Aquest formulari comprova les dades automàticament
+            sense utilitzar JavaScript.
+        </p>
+    </aside>
+
+    <aside>
+        <h2>Requisits</h2>
+        <p>
+            El nom és obligatori, el correu ha de ser vàlid,
+            la contrasenya necessita 8 caràcters i el telèfon
+            ha de tenir exactament 9 dígits.
+        </p>
+    </aside>
+
+    <footer>
+        <p>© 2026 Validant sense JS</p>
+    </footer>
+
+</body>
