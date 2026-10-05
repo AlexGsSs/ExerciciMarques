@@ -1,12 +1,86 @@
+
 * {
-    margin: 0;
-    padding: 0;
-
-    text-decoration: none;
-    list-style: none;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
 }
 
-.textCeles{
-    text-align: center;
+.textCeles {
+  text-align: center;
 }
+
+.layout {
+  background-color: #0f172a;
+  color: #94a3b8;
+}
+
+.article-0 {
+  text-align: center;
+  margin: 1em;
+  padding: 1.5em;
+  font-size: 1.2em;
+  background-color: #111827;
+  border: solid #334155;
+}
+
+.article-1 {
+  text-align: center;
+  margin: 1em;
+  padding: 1.5em;
+  font-size: 1.2em;
+  background-color: #111827;
+}
+
+#sobreMi {
+  border-bottom: solid #334155;
+  margin: 0.5em;
+  padding: 0.5em;
+  color: #f8fafc;
+}
+
+#textSobreMi {
+  margin: 0.5em;
+  padding: 0.5em;
+  color: #94a3b8;
+}
+
+.article-2 {
+  text-align: center;
+  margin: 1em;
+  padding: 1.5em;
+  font-size: 1em;
+  background-color: #111827;
+}
+
+#titolHTML {
+  font-size: 1.2em;
+  border-bottom: solid #334155;
+  margin: 0.5em;
+  padding: 0.5em;
+  color: #f8fafc;
+}
+
+.liS-1 {
+  margin: 0.5em;
+}
+
+.liS-1 a,
+.liS-1 a:visited {
+  color: #38bdf8;
+}
+
+.liS-1 a:hover {
+  color: #0284c7;
+}
+
+.footer {
+  text-align: center;
+  padding: 1em;
+  font-size: 1.2em;
+  background-color: #111827;
+}
+
+
+
 
