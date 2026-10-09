@@ -4,6 +4,12 @@
   padding: 0;
   text-decoration: none;
   list-style: none;
+
+  overflow: hidden;
+}
+
+::-webkit-scrollbar {
+    display: none;
 }
 
 .textCeles {
@@ -17,8 +23,8 @@
 
 .article-0 {
   text-align: center;
-  margin: 1em;
-  padding: 1.5em;
+  margin: 0.5em;
+  padding: 1em;
   font-size: 1.2em;
   background-color: #111827;
   border: solid #334155;
@@ -26,8 +32,8 @@
 
 .article-1 {
   text-align: center;
-  margin: 1em;
-  padding: 1.5em;
+  margin: 0.5em;
+  padding: 1em;
   font-size: 1.2em;
   background-color: #111827;
 }
@@ -47,8 +53,8 @@
 
 .article-2 {
   text-align: center;
-  margin: 1em;
-  padding: 1.5em;
+  margin: 0.5em;
+  padding: 1em;
   font-size: 1em;
   background-color: #111827;
 }
@@ -76,7 +82,7 @@
 
 .footer {
   text-align: center;
-  padding: 1em;
+  padding: 0.5em;
   font-size: 1.2em;
   background-color: #111827;
 }
