@@ -9,7 +9,7 @@
 }
 
 ::-webkit-scrollbar {
-    display: none;
+  display: none;
 }
 
 .textCeles {
@@ -21,7 +21,16 @@
   color: #94a3b8;
 }
 
+.main {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto auto auto;
+}
+
 .article-0 {
+  grid-column: 1 / -1;
+  grid-row: 1;
+
   text-align: center;
   margin: 0.5em;
   padding: 0.5em;
@@ -31,6 +40,9 @@
 }
 
 .article-1 {
+  grid-column: 1 / -1;
+  grid-row: 2;
+
   text-align: center;
   margin: 0.5em;
   padding: 0.5em;
@@ -52,6 +64,9 @@
 }
 
 .article-2 {
+  grid-column: 1;
+  grid-row: 3;
+
   text-align: center;
   margin: 0.5em;
   padding: 0.5em;
@@ -59,7 +74,19 @@
   background-color: #111827;
 }
 
-#titolHTML {
+.article-3 {
+  grid-column: 2;
+  grid-row: 3;
+
+  text-align: center;
+  margin: 0.5em;
+  padding: 0.5em;
+  font-size: 1em;
+  background-color: #111827;
+}
+
+#titolHTML,
+#titolCSS {
   font-size: 1.2em;
   border-bottom: solid #334155;
   margin: 0.5em;
@@ -72,11 +99,14 @@
 }
 
 .liS-1 a,
-.liS-1 a:visited {
+.liS-1 a:visited,
+.article-3 a,
+.article-3 a:visited {
   color: #38bdf8;
 }
 
-.liS-1 a:hover {
+.liS-1 a:hover,
+.article-3 a:hover {
   color: #0284c7;
 }
 
@@ -85,8 +115,5 @@
   padding: 0.5em;
   font-size: 1.2em;
   background-color: #111827;
+  border: solid #334155;
 }
-
-
-
-

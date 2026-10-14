@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+}
+
+.layout {
+  height: 100vh;
+  width: 100svw;
+
+  display: grid;
+  grid-template-columns: 1fr 5fr 5fr 5fr 5fr;
+  grid-template-rows: 1fr 1fr 7fr 5fr;
+}
+
+.header {
+  background-color: lightblue;
+  grid-column: 2 / 6;
+  grid-row: 1;
+}
+
+.aside3-Izq {
+  background-color: lightcoral;
+  grid-row: 1 / 5;
+}
+
+.nav {
+  background-color: lightseagreen;
+  grid-column: 2 / 6;
+  grid-row: 2;
+}
+
+.main {
+      background-color: lightgreen;
+  grid-column: 2 / 4;
+  grid-row: 3;
+}
+
+.aside1{
+    background-color: lightskyblue;
+    grid-column: 4 / 5;
+  grid-row: 3;
+}
+
+.aside2{
+    background-color: lightsalmon;
+    grid-column: 5 / 6;
+  grid-row: 3;
+}
+
+.articleS{
+    background-color: lightyellow;
+    grid-column: 2 / 6;
+    grid-row: 4;
+}
