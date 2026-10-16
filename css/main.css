@@ -1,4 +1,3 @@
-
 * {
   margin: 0;
   padding: 0;
@@ -24,7 +23,7 @@
 .main {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: auto auto auto;
+  grid-template-rows: auto auto 1fr;
 }
 
 .article-0 {
@@ -98,17 +97,19 @@
   margin: 0.5em;
 }
 
-.liS-1 a,
-.liS-1 a:visited,
-.article-3 a,
-.article-3 a:visited {
+a,a:visited {
   color: #38bdf8;
 }
 
-.liS-1 a:hover,
-.article-3 a:hover {
+
+a:hover{
   color: #0284c7;
 }
+
+a:active {
+  color: #4000ff;
+}
+
 
 .footer {
   text-align: center;
