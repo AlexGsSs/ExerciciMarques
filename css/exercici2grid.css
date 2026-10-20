@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+}
+
+.layout {
+  height: 100vh;
+  width: 100vw;
+
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+}
+
+.header{
+    background-color: lightblue;
+    grid-column: 2/-1;
+    grid-row: 1;
+}
+
+.sidebar{
+    background-color: lightcoral;
+    grid-column: 1;
+    grid-row: 2;
+}
+
+.content{
+    background-color: lightseagreen;
+    grid-column: 2/-1;
+    grid-row: 2;
+}
+
+.footer{
+    background-color: lightgreen;
+    grid-column: 1/-1;
+    grid-row: 3;
+}
