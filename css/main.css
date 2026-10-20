@@ -97,12 +97,12 @@
   margin: 0.5em;
 }
 
-a,a:visited {
+a,
+a:visited {
   color: #38bdf8;
 }
 
-
-a:hover{
+a:hover {
   color: #0284c7;
 }
 
@@ -110,6 +110,10 @@ a:active {
   color: #4000ff;
 }
 
+::selection {
+  background-color: lightblue;
+  color: rgba(31, 29, 29, 0.83);
+}
 
 .footer {
   text-align: center;
